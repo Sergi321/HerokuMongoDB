@@ -1,0 +1,21 @@
+.platforms {
+  
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  height: 50%;
+width: 50%;
+
+}
+
+.platforms > li {
+  max-width: calc(48% - 5px);
+  margin: 5px;
+  text-align: center;
+}
+
+.platforms > li:last-child {
+  justify-self: center;
+}
