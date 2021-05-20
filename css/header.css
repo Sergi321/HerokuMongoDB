@@ -61,18 +61,9 @@
   font-size: 1.5rem;
 }
 
-.header-content .promo-text {
-  margin: 60% -2rem 0 -2rem;
-  background-color: rgba(43, 43, 43, 0.25);
-  padding: 2rem 2rem;
-  text-shadow: black 2px 2px 2px;
-}
-.header-content .promo-text :hover{
 
-  background-color: rgba(8, 72, 248, 0.25);
-  transition: 2s;
-  text-shadow: rgb(255, 5, 5) 2px 2px 2px;
-}
+
+
 @media all and (orientation: landscape) and (max-height: 479px) {
   .header-content .promo-text {
     margin-top: 0;
